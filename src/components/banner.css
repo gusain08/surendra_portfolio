@@ -1,0 +1,143 @@
+.banner_section {
+    margin-top: 6rem;
+}
+
+.bannerr_wrapper {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+}
+.bannerr_wrapper .left_section {
+    max-width: 50rem;
+}
+
+.left_section .banner_text h1 {
+    font-size: 5.5rem;
+    color: #fff;
+    line-height: 1.2;
+    margin-bottom: 2rem;
+}
+.left_section .banner_text {
+    max-width: 50rem;
+    display: flex;
+}
+
+.left_section .banner_text img {
+    height: 6rem;
+    width: 6rem;
+    margin-right: 8px;
+}
+.inner_text p{
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 1.6;
+    color: #fff;
+    margin-bottom: 2rem;
+}
+
+
+.social_icons a {
+    font-size: 3rem;
+    display: inline-block;
+}
+
+.social_icons a svg {
+    color: #fff;
+    fill: #fff;
+}
+.social_icons a:last-child{
+    margin-left: 10px;
+}
+.mytech_skills p {
+    color: #fff;
+    font-size: 3rem;
+}
+.my_tect_skilss ul{
+    margin:0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+ 
+}
+
+.my_tect_skilss  ul > li {
+    align-items: center;
+    background-color: transparent;
+    border-radius: 50%;
+    /* box-shadow: 0 0 10px rgba(0,0,0,.09); */
+    cursor: pointer;
+    display: flex;
+    height: 7rem;
+    justify-content: center;
+    width: 8.5rem;
+    padding: 0 10px;
+}
+.mytech_skills {
+    display: flex;
+    font-size: 1.7rem;
+    align-items: center;
+}
+.mytech_skills p {
+    color: #fff;
+    border-right: 2px solid rgba(255,255,255,1);
+    font-weight: 600;
+    margin-right: 7rem;
+    padding-right: 2rem;
+    white-space: nowrap;
+}
+.my_tect_skilss ul li img {
+    height: 7rem;
+    border-radius: 50%;
+    padding: 0 20px;
+    display: block;
+}
+
+.right_Section img {
+    height: 30rem;
+    rotate: 445deg;
+}
+
+.right_Section {
+    text-align: right;
+}
+
+@media(max-width:991px){
+    .bannerr_wrapper {
+        flex-direction: column-reverse;
+    }
+    .right_Section {
+        text-align: center;
+    }
+    .bannerr_wrapper .left_section{
+        max-width: 100%;
+    }
+    .mytech_skills{
+        flex-direction: column;
+    }
+    .my_tect_skilss ul{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .my_tect_skilss ul > li{
+        margin: 0 10px;
+        padding: 0;
+    }
+    .my_tect_skilss ul li img{
+        padding: 0;
+    }
+    .mytech_skills p{
+        border-bottom: 2px solid rgba(255,255,255,1);
+        border-right: 0;
+        padding-bottom: 15px;
+        margin-bottom: 40px;
+        padding-right: 0;
+        margin-right: 0;
+    }
+    .social_icons {
+        text-align: center;
+        margin: 20px 0;
+    }
+    
+    
+}

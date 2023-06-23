@@ -1,12 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap");
-* {
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box;
+
+ 
+.header_wrapper {
+  min-height: 108px;
 }
-body {
-  font-family: "Open Sans", sans-serif;
-}
+
+
 /*header styling starts*/
 header {
   position: fixed;
@@ -17,10 +15,16 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 20px 40px;
-  background-color: #fff;
-  box-shadow: 0px 8px 7px -11px #000;
-  -webkit-box-shadow: 0px 8px 7px -11px #000;
+  /* background-color: #fff; */
+  /* box-shadow: 0px 8px 7px -11px #000;
+  -webkit-box-shadow: 0px 8px 7px -11px #000; */
   /* background: linear-gradient(112.84deg, #46BAEB 0.33%, #AF2CFF 38.23%, #F790AF 65.22%, #C1ABFF 100%); */
+}
+.hamburger-icon > svg {
+  fill: #fff;
+}
+button.hamburger-icon:focus{
+  outline: none;
 }
 .hamburger-icon {
   background: transparent;
@@ -50,14 +54,15 @@ header {
   overflow: hidden;
   left: -100%;
   width: 400px;
-  background: url("https://img.freepik.com/free-vector/browsing-online-concept-illustration_114360-4684.jpg?w=740&t=st=1687346725~exp=1687347325~hmac=822682df21a5104d25be7f99f1c1be331e6e61cdbc8ac57fdfcd9afd31335080")
-    no-repeat center center / cover;
+  /* background: url("https://img.freepik.com/free-vector/browsing-online-concept-illustration_114360-4684.jpg?w=740&t=st=1687346725~exp=1687347325~hmac=822682df21a5104d25be7f99f1c1be331e6e61cdbc8ac57fdfcd9afd31335080")
+    no-repeat center center / cover; */
   height: calc(100vh + 97px);
   min-height: 700px;
   display: flex;
   display: -webkit-flex;
   align-items: center;
   -webkit-align-items: center;
+  background: url('https://themewagon.github.io/melan/img/banner/banner.png') no-repeat center center / cover;
 }
 .nav:after {
   content: "";
@@ -247,9 +252,7 @@ header {
   }
 }
 @media (min-width: 1600px) and (max-width: 1920px) {
-  .container {
-    width: 1510px;
-  }
+  
   .nav {
     width: 500px;
     top: -48px;
