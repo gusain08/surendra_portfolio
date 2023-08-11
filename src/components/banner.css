@@ -2,6 +2,8 @@
     margin-top: 6rem;
 }
 
+
+
 .bannerr_wrapper {
     display: flex;
     gap: 30px;
@@ -58,6 +60,7 @@
     list-style: none;
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
  
 }
 
@@ -70,7 +73,7 @@
     display: flex;
     height: 7rem;
     justify-content: center;
-    width: 8.5rem;
+    width: 33.33%;
     padding: 0 10px;
 }
 .mytech_skills {
@@ -93,14 +96,34 @@
     display: block;
 }
 
-.right_Section img {
-    height: 30rem;
-    rotate: 445deg;
-}
 
 .right_Section {
+    position: relative;
     text-align: right;
+    width: 100%;
 }
+.right_Section img {
+    position: absolute;
+    z-index: 1;
+}
+
+.right_Section img:nth-child(1){
+    transform: scale(0.69);
+    left: -15%;
+    top: -9%;
+}
+
+.right_Section img:nth-child(2){
+    top: -4.6rem;
+    transform: scale(0.67);
+    left: -3rem;
+}
+
+.right_Section img:nth-child(3){
+    transform: scale(1.4);
+    left: 28%;
+}
+
 
 @media(max-width:991px){
     .bannerr_wrapper {
@@ -118,10 +141,12 @@
     .my_tect_skilss ul{
         justify-content: center;
         flex-wrap: wrap;
+        max-width:100%;
     }
     .my_tect_skilss ul > li{
         margin: 0 10px;
         padding: 0;
+        width: auto;
     }
     .my_tect_skilss ul li img{
         padding: 0;
@@ -138,6 +163,9 @@
         text-align: center;
         margin: 20px 0;
     }
+  
     
-    
+    .left_section .banner_text h1{
+        font-size: 3rem;
+    } 
 }

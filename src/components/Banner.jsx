@@ -8,6 +8,7 @@ import react from '../assets/react.png';
 import scss  from '../assets/sccss.png'
 import blob1 from '../assets/Vector1.png'
 import blob2 from '../assets/Vector2.png'
+import me from '../assets/me.png'
  const Banner = () => {
   const logos = [
     {
@@ -74,7 +75,10 @@ import blob2 from '../assets/Vector2.png'
       </div>
       <div className="right_Section">
              
+              <img src={blob1} alt="" />
               <img src={blob2} alt="" />
+              <img src={me} alt="" />
+              
       </div>
       </div>
       </div>

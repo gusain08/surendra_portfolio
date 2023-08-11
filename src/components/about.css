@@ -1,0 +1,60 @@
+.about-content {
+    display: flex;
+    /* flex-wrap: wrap; */
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+/*  About  */
+
+  .about .title::after {
+    content: "—Who I Am ?—";
+    text-overflow: ellipsis;
+    display: -webkit-inline-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+  }
+  
+  .about .about-content .left {
+    width: 45%;
+  }
+  
+  .about .about-content .left img {
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 6px;
+  }
+  
+  .about .about-content .right {
+    width: 55%;
+    color: #ffff;
+    font-size: 20px;
+  }
+  
+  .about .about-content .right .text {
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+  /* Linear Gradiant */
+  /* .about .about-content .right .text span {
+    
+    background: linear-gradient(135deg, #041d3d, #fff, crimson);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  } */
+  
+  .about .about-content .right p {
+    text-align: justify;
+  }
+  
+  .about .about-content .right a {
+    margin-top: 40px;
+  }
+  
+  .typing-2{
+    position: relative;
+}
