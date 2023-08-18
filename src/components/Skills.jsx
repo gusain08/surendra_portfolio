@@ -32,7 +32,7 @@ const Skills = () => {
             skilss.map((items, index)=>{
                 return (
                     <>
-                        <div className="bar">
+                        <div className="bar">   
                             <div className="info">
                               <span>{items.language}</span>
                             </div>

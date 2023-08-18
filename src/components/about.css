@@ -3,6 +3,7 @@
     /* flex-wrap: wrap; */
     align-items: center;
     justify-content: space-between;
+    overflow: hidden;
 }
 
 
@@ -57,4 +58,22 @@
   
   .typing-2{
     position: relative;
+}
+
+@media(max-width:991px) {
+  .about-content{
+    display: block;
+  }
+  .about .about-content .right{
+    width: 100%;
+    margin-top: 15px;
+  }
+  .about .about-content .left{
+    width: 100%;
+  }
+  .about .about-content .left img{
+    width: 100%;
+    height: auto;
+  }
+  
 }

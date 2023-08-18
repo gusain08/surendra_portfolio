@@ -3,6 +3,7 @@ import './header.css'
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
 
+
 const Header = () => {
     const [toggle, setToggle] = useState(false);
     
@@ -33,10 +34,14 @@ const Header = () => {
                                 <a>About us</a>
                             </li>
                             <li>
-                                <a href="#"> products </a>
+                                <a href="#"> Portfolio </a>
                             </li>
                             <li>
-                                <a href="#"> what we offers </a>
+                                <a href="#"> Skills</a>
+                            </li>
+                            <li>
+                                <a href="#">Resume</a>
+                               
                             </li>
                             <li>
                                 <a href="#"> contact us </a>

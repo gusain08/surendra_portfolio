@@ -85,7 +85,6 @@
     color: #fff;
     border-right: 2px solid rgba(255,255,255,1);
     font-weight: 600;
-    margin-right: 7rem;
     padding-right: 2rem;
     white-space: nowrap;
 }
@@ -124,25 +123,50 @@
     left: 28%;
 }
 
-
-@media(max-width:991px){
-    .bannerr_wrapper {
+@media(max-width:1200px) {
+    .bannerr_wrapper{
         flex-direction: column-reverse;
     }
     .right_Section {
         text-align: center;
+        height: 70vh;
     }
+    .mytech_skills{
+        display: block;
+    }
+    
+    .mytech_skills p{
+        border-bottom: 2px solid rgba(255,255,255,1);
+        border-right: 0;
+        padding-bottom: 15px;
+        margin-bottom: 40px;
+        padding-right: 0;
+        margin-right: 0;
+        display: inline-block;
+        width: auto;
+    }
+    .my_tect_skilss ul{
+        justify-content: start;
+        flex-wrap: wrap;
+        max-width:100%;
+    }
+    .my_tect_skilss ul > li:first-child{
+        margin: 0;
+    }
+
+}
+
+
+@media(max-width:991px){
+   
+    
     .bannerr_wrapper .left_section{
         max-width: 100%;
     }
     .mytech_skills{
         flex-direction: column;
     }
-    .my_tect_skilss ul{
-        justify-content: center;
-        flex-wrap: wrap;
-        max-width:100%;
-    }
+    
     .my_tect_skilss ul > li{
         margin: 0 10px;
         padding: 0;
@@ -151,16 +175,8 @@
     .my_tect_skilss ul li img{
         padding: 0;
     }
-    .mytech_skills p{
-        border-bottom: 2px solid rgba(255,255,255,1);
-        border-right: 0;
-        padding-bottom: 15px;
-        margin-bottom: 40px;
-        padding-right: 0;
-        margin-right: 0;
-    }
+    
     .social_icons {
-        text-align: center;
         margin: 20px 0;
     }
   
@@ -168,4 +184,19 @@
     .left_section .banner_text h1{
         font-size: 3rem;
     } 
+}
+
+@media(max-width:599px) {
+    .right_Section img:nth-child(3){
+        height: 350px;
+    }
+    .right_Section img:nth-child(2),
+    .right_Section img:nth-child(1){
+        height: 300px;
+    }
+    .right_Section {
+        height: 45vh;
+    }
+    
+    
 }
