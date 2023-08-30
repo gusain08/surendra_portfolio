@@ -32,18 +32,7 @@ const Contact = () => {
                             <input className="input1" type="text" name="email" placeholder="Email" />
                             <span className="shadow-input1" />
                         </div>
-                        <div
-                            className="wrap-input1 validate-input"
-                            data-validate="Subject is required"
-                        >
-                            <input
-                                className="input1"
-                                type="text"
-                                name="subject"
-                                placeholder="Subject"
-                            />
-                            <span className="shadow-input1" />
-                        </div>
+                        
                         <div className="wrap-input1 validate-input"
                             data-validate="Message is required">
                             <textarea

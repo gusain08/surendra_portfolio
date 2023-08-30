@@ -39,9 +39,7 @@ const About = () => {
           alt="Profile Image 626x626"
         />
       </div>
-    
-
-      
+  
       <motion.div className="column right" style={{translateX: topShadowValue}}>
         <div className="text">
           I'm Surendra Singh and I'm a <span className="typing-2">

@@ -170,12 +170,12 @@ const Resume = () => {
         </div>
         <div className="timeline">
           <div className="left-tl-content">
-            <h5 className="tl-title">Web Designer</h5>
+            <h5 className="tl-title">The Webplant Pvt Ltd</h5>
             <p className="para">Sep 2021 - Oct 2022</p>
           </div>
           <div className="right-tl-content">
             <div className="tl-content">
-              <h5 className="tl-title-2">Educator</h5>
+              <h5 className="tl-title-2">Web Designer</h5>
               <p className="para">
                 Optimized 30+ key content pages for SEO objectives, which
                 improved online search-ranking accuracy by 63%. Manipulated

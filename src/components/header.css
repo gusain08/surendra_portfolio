@@ -396,6 +396,21 @@ button.hamburger-icon:focus{
     padding: 14px 40px;
   }
 }
+
+
+@media(max-width:991px){
+  .header_wrapper .header_button{
+    overflow: visible;
+    font-size: 0;
+    padding: 0;
+  }
+  .header_wrapper .header_button .button-text{
+    display: none;
+  }
+  .header_wrapper  .header_button .icon{
+    top: -25px;
+  }
+}
 @media (max-width: 767px) {
   .nav {
     width: 295px;
