@@ -209,3 +209,24 @@
     }
     
 }
+
+@media(max-width:420px) {
+    .right_Section img:nth-child(1) {
+        left: -50%;
+    }
+    .right_Section img:nth-child(2) {
+       
+        left: -6rem;
+    }
+}
+
+
+@media(max-width:360px) {
+    .right_Section img:nth-child(1) {
+        left: -60%;
+    }
+    .right_Section img:nth-child(2) {
+       
+        left: -10rem;
+    }
+}

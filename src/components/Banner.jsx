@@ -1,4 +1,5 @@
 import React from 'react'
+import { motion } from "framer-motion";
 import "./banner.css";
 import HTML from "../assets/html5-2.png";
 import CSS from "../assets/css3.png";
@@ -9,7 +10,30 @@ import scss  from '../assets/sccss.png'
 import blob1 from '../assets/Vector1.png'
 import blob2 from '../assets/Vector2.png'
 import me from '../assets/me.png'
+
  const Banner = () => {
+
+  const container = {
+    hidden: { opacity: 1, scale: 0 },
+    visible: {
+      opacity: 1,
+      scale: 1,
+      transition: {
+        delayChildren: 2,
+        staggerChildren: 1
+      }
+    }
+  };
+  
+  const item = {
+    hidden: { y: 20, opacity: 0 },
+    visible: {
+      y: 0,
+      opacity: 1
+    }
+  };
+
+
   const logos = [
     {
       id:1,
@@ -38,7 +62,7 @@ import me from '../assets/me.png'
   ]
   return (
   <>
-    <div className="banner_section">
+    <motion.div className="banner_section"  variants={container} initial="hidden" animate="visible"> 
       <div className="container">
       <div className="bannerr_wrapper">
       <div className="left_section">
@@ -61,7 +85,7 @@ import me from '../assets/me.png'
       {
         logos.map((items,index)=>{
             return(
-             <li key={index}>
+             <li key={index} style={{item}} variants={item}>
                <img src={items.img} />
              </li>
             )
@@ -82,7 +106,7 @@ import me from '../assets/me.png'
       </div>
       </div>
       </div>
-    </div>
+    </motion.div>
   </>
   )
 }
