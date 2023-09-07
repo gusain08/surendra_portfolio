@@ -2,7 +2,7 @@ import React from 'react'
 import './header.css'
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
-
+import Logo from '../assets/Surendra.png';
 
 const Header = () => {
     const [toggle, setToggle] = useState(true);
@@ -14,8 +14,8 @@ const Header = () => {
               <header>
 
                 <div className="logo_wrapper">
-                <a href="index.html" className="logo">
-                        SURENDRA GUSAIN
+                <a href="#" className="logo">
+                        <img src={Logo} alt="" />
                     </a>
                  
                 </div>

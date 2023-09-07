@@ -30,8 +30,11 @@
   
   .about .about-content .right {
     width: 55%;
-    color: #ffff;
+    /* color: #ffff; */
     font-size: 20px;
+  }
+  .about .button-text{
+    color: #000;
   }
   
   .about .about-content .right .text {

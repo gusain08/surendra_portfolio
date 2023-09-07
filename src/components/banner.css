@@ -1,5 +1,5 @@
 .banner_section {
-    margin-top: 6rem;
+    margin-top: 10rem;
 }
 
 
@@ -15,7 +15,7 @@
 
 .left_section .banner_text h1 {
     font-size: 5.5rem;
-    color: #fff;
+    color: #000;
     line-height: 1.2;
     margin-bottom: 2rem;
 }
@@ -33,7 +33,7 @@
     font-size: 1.8rem;
     font-weight: 500;
     line-height: 1.6;
-    color: #fff;
+    /* color: #fff; */
     margin-bottom: 2rem;
 }
 
@@ -82,8 +82,8 @@
     align-items: center;
 }
 .mytech_skills p {
-    color: #fff;
-    border-right: 2px solid rgba(255,255,255,1);
+    color: #000;
+    border-right: 2px solid #000;
     font-weight: 600;
     padding-right: 2rem;
     white-space: nowrap;
@@ -136,7 +136,7 @@
     }
     
     .mytech_skills p{
-        border-bottom: 2px solid rgba(255,255,255,1);
+        border-bottom: 2px solid #000;
         border-right: 0;
         padding-bottom: 15px;
         margin-bottom: 40px;
@@ -222,9 +222,9 @@
 
 
 @media(max-width:360px) {
-    .right_Section img:nth-child(1) {
+    /* .right_Section img:nth-child(1) {
         left: -60%;
-    }
+    } */
     .right_Section img:nth-child(2) {
        
         left: -10rem;

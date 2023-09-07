@@ -5,6 +5,7 @@ const Resume = () => {
    <>
     <div className="resume-pages">
     <div className="container">
+    <div class="seven"><h1>Resume</h1></div>
     <main className="main-content">
   <section className="left-section">
     <div className="left-content">
