@@ -27,10 +27,7 @@ const Resume = () => {
             <i className="fa fa-fax" />
             surrigusain8@gmail.com
           </li>
-          <li>
-            <i className="fa fa-globe" />
-            www.codingmasterweb.com
-          </li>
+        
           <li>
             <i className="fa fa-linkedin" />
             Surendra Singh
@@ -81,7 +78,7 @@ const Resume = () => {
           <li>
             <p className="skill-title">React JS</p>
             <div className="progress-bar">
-              <div className="progress  ,,,.,,,,,,,,,,................................................................................................................ps-progress" />
+              <div className="progress ps-progress" />
             </div>
           </li>
           <li>
@@ -213,7 +210,7 @@ const Resume = () => {
           </div>
           <div className="right-tl-content">
             <div className="tl-content">
-              <h5 className="tl-title-2">VPS Govardhan</h5>
+              <h5 className="tl-title-2">  Adalikhal, Pauri Garhwal ,Uttarakhand</h5>
               <p className="para">
                 Did my Intermediate from Janta Inter College Adalikhal , Pauri
                 Garhwal Uttarakhand

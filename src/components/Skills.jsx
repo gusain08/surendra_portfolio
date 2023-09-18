@@ -12,8 +12,28 @@ const Skills = () => {
             class:"css"
         },
         {
-            language:" javaScript",
+            language:"javaScript",
             class:"jquery"
+        },
+        {
+            language:"jquery",
+            class:"jquery"
+        },
+        {
+            language:"Bootstap 5",
+            class:"Bootstap"
+        },
+        {
+            language:"React js",
+            class:"react"
+        },
+        {
+            language:"Redux RTK",
+            class:"rtk-query"
+        },
+        {
+            language:"Java + DSA",
+            class:"java"
         }
     ]
 
