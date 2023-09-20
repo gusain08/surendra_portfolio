@@ -1,5 +1,5 @@
 import './contact.css';
-
+import ContactMe from '../../assets/contact_me.jpg'
 const Contact = () => {
     return (
         <>
@@ -14,21 +14,15 @@ const Contact = () => {
                 <div className="container">
                         <div className="contact-container">
                         <div className="contact1-pic js-tilt">
-                        <img src="images/img-01.png" alt="IMG" />
+                        <img src={ContactMe} alt="IMG" />
                     </div>
                     <form className="contact1-form validate-form">
                         <span className="contact1-form-title">Get in touch</span>
-                        <div
-                            className="wrap-input1 validate-input"
-                            data-validate="Name is required"
-                        >
+                        <div className="wrap-input1 validate-input">
                             <input className="input1" type="text" name="name" placeholder="Name" />
                             <span className="shadow-input1" />
                         </div>
-                        <div
-                            className="wrap-input1 validate-input"
-                            data-validate="Valid email is required: ex@abc.xyz"
-                        >
+                        <div className="wrap-input1 validate-input">
                             <input className="input1" type="text" name="email" placeholder="Email" />
                             <span className="shadow-input1" />
                         </div>

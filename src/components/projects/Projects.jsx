@@ -1,6 +1,6 @@
 import React from 'react'
-import idp from '../assets/idp.png'
-import Drum from '../assets/drum-kit.png';
+import idp from '../../assets/idp.png'
+import Drum from '../../assets/drum-kit.png';
 import './projects.css'
 const Projects = () => {
   return (

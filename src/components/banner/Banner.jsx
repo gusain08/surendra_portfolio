@@ -1,15 +1,15 @@
 import React from 'react'
 import { motion } from "framer-motion";
 import "./banner.css";
-import HTML from "../assets/html5-2.png";
-import CSS from "../assets/css3.png";
-import js from '../assets/javascript-logo.png';
-import bootstrap  from '../assets/bootstrap-framework-logo.png';
-import react from '../assets/react.png';
-import scss  from '../assets/sccss.png'
-import blob1 from '../assets/Vector1.png'
-import blob2 from '../assets/Vector2.png'
-import me from '../assets/me.png'
+import HTML from "../../assets/html5-2.png";
+import CSS from "../../assets/css3.png";
+import js from '../../assets/javascript-logo.png';
+import bootstrap  from '../../assets/bootstrap-framework-logo.png';
+import react from '../../assets/react.png';
+import scss  from '../../assets/sccss.png'
+import blob1 from '../../assets/Vector1.png'
+import blob2 from '../../assets/Vector2.png'
+import me from '../../assets/me.png'
 
  const Banner = () => {
 
@@ -85,7 +85,7 @@ import me from '../assets/me.png'
       {
         logos.map((items,index)=>{
             return(
-             <li key={index} style={{item}} variants={item}>
+             <li key={index}>
                <img src={items.img} />
              </li>
             )

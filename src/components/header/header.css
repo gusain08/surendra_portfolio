@@ -12,19 +12,13 @@ header {
   display: -webkit-flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 40px;
-  /* background-color: #fff; */
-  /* box-shadow: 0px 8px 7px -11px #000;
-  -webkit-box-shadow: 0px 8px 7px -11px #000; */
-  /* background: linear-gradient(112.84deg, #46BAEB 0.33%, #AF2CFF 38.23%, #F790AF 65.22%, #C1ABFF 100%); */
+  padding: 5px 40px;
   background: rgb(91, 73, 255);
   min-height: 90px;
   z-index: 9999;
 }
 
-header .logo img {
-  width: 150px;
-}
+
 
 .hamburger-icon>svg {
   fill: #fff;
@@ -530,9 +524,7 @@ button.hamburger-icon:focus {
     margin: 0px;
   }
 
-  header .logo img {
-    width: 150px;
-  }
+  
 
   .hamburger-icon {
     font-size: 22px;

@@ -152,3 +152,15 @@
   .progress-line.mysql span::after{
     content: "75%";
   }
+
+  @media  screen and (max-width:767px){
+    .skill-bars{
+      display: block;
+      padding: 25px 15px;
+    }
+    .skill-bars .bar{
+      width: 100%;
+    }
+    
+  }
+

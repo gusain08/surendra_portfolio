@@ -2,6 +2,7 @@ import React from 'react'
 import "./about.css";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { useRef } from "react";
+import AboutImg from '../../assets/about-me.png'
 const About = () => {
 
   const containerRef = useRef(null);
@@ -33,14 +34,11 @@ const About = () => {
    <div className="container">
    <div className="seven"><h1>About Me</h1></div>
     <div  className="about-content">
-      <div className="column left" style={{translateX: imageValue}}>
-        <img
-          src="https://source.unsplash.com/626x626/?profile"
-          alt="Profile Image 626x626"
-        />
+      <div className="column left" >
+        <img src={AboutImg}/>
       </div>
   
-      <div className="column right" style={{translateX: topShadowValue}}>
+      <div className="column right" >
         <div className="text">
           I'm Surendra Singh and I'm a <span className="typing-2">
             Frontend Developer
