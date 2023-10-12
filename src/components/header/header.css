@@ -129,7 +129,7 @@ button.hamburger-icon:focus {
 /*header styling ends*/
 /*banner styling starts*/
 .container {
-  width: 1170px;
+  max-width: 1170px;
   margin: 0px auto;
   padding: 0px 15px;
 }
@@ -324,7 +324,7 @@ button.hamburger-icon:focus {
 /*banner styling ends*/
 @media (min-width: 1450px) and (max-width: 1599px) {
   .container {
-    width: 1310px;
+    max-width: 1310px;
   }
 
   .nav {
@@ -361,7 +361,7 @@ button.hamburger-icon:focus {
 
   /*banner styling starts*/
   .container {
-    width: 960px;
+    max-width: 960px;
     padding: 0px 15px;
   }
 
@@ -458,7 +458,7 @@ button.hamburger-icon:focus {
 
   /*banner styling starts*/
   .container {
-    width: 720px;
+    max-width: 720px;
     padding: 0px 15px;
   }
 
@@ -557,6 +557,7 @@ button.hamburger-icon:focus {
   }
 
   .container {
+    max-width:100%;
     width: 100%;
     padding: 0px 15px;
   }

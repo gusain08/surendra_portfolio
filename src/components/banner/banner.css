@@ -172,7 +172,7 @@
         margin: 0 10px;
         padding: 0;
         width: auto;
-    }
+    } 
     .my_tect_skilss ul li img{
         padding: 0;
     }
@@ -213,21 +213,11 @@
 
 @media(max-width:420px) {
     .right_Section img:nth-child(1) {
-        left: -50%;
+        left: 0%;
     }
     .right_Section img:nth-child(2) {
        
-        left: -6rem;
+        left: 0;
     }
 }
 
-
-@media(max-width:360px) {
-    /* .right_Section img:nth-child(1) {
-        left: -60%;
-    } */
-    .right_Section img:nth-child(2) {
-       
-        left: -10rem;
-    }
-}

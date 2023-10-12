@@ -5,7 +5,7 @@ const Resume = () => {
    <>
     <div className="resume-pages">
     <div className="container">
-    <div class="seven"><h1>Resume</h1></div>
+    <div className="seven"><h1>Resume</h1></div>
     <main className="main-content">
   <section className="left-section">
     <div className="left-content">
@@ -101,7 +101,7 @@ const Resume = () => {
         </div>
         <div className="referee">
           <h6 className="sub-title">
-            <a href="https://www.travofolks.com/" target="_blank">
+            <a href="https://www.travfolks.com/" target="_blank">
               Travofolks
             </a>
           </h6>
@@ -189,7 +189,7 @@ const Resume = () => {
         <div className="timeline">
           <div className="left-tl-content">
             <h5 className="tl-title">High School</h5>
-            <p className="para">2014 - 2015</p>
+            <p className="para">2013 - 2014</p>
           </div>
           <div className="right-tl-content">
             <div className="tl-content">

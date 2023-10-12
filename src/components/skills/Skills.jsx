@@ -44,35 +44,36 @@ const Skills = () => {
                 <div className="seven">
                     <h1>My Tech Skills</h1>
                     </div>
-                    <>
-  {/* Hello world */}
+                   
+
   <div className="skill-bars">
     
         {   
-            skilss.map((items, index)=>{
+            skilss.map((items, indexx)=>{
                 return (
-                    <>
-                        <div className="bar" key={index}>   
+                  
+                        <div className="bar" key={indexx}>   
                             <div className="info">
                               <span>{items.language}</span>
                             </div>
                             <div className={`progress-line ${items.class}`}>
-                              <span />
+                            <span></span>
                             </div>
                           </div>
-                    </>
+                    
                 )
             })
         }
   </div>
-</>
+
 
               
 
             </div>
             </div>
-        </>
+     </> 
     )
+
 }
 
 export default Skills
