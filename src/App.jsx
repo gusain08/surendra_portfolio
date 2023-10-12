@@ -6,7 +6,7 @@ import Projects from './components/projects/Projects';
 import Skills  from './components/skills/Skills';
 import Contact from './components/contact/Contact';
 import Footer from './components/footer/Footer';
-import Resume from './components/resume/Resume';
+// import Resume from './components/resume/Resume';
 
 import './App.css'
 const App = () => {
@@ -20,7 +20,7 @@ const App = () => {
    <About/>  
   <Projects/>
  <Skills/>
-<Resume/>
+{/* <Resume/> */}
   <Contact/>
   <Footer/> 
     
